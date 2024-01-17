@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Input from './components/Input';
 import Form from './components/Form';
 
+import "./styles/App.css";
+
 const App = () => {
 
     const [name, setName] = useState("") // [valor, () => {}]
@@ -54,6 +56,8 @@ const App = () => {
                     })
                 }
             </ul>
+
+            <div className="box"></div>
         </>
     )
 }
